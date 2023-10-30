@@ -8,8 +8,8 @@ export const carsSlice = createSlice({
   name: 'cars',
   initialState,
   reducers: {
-    getMarcas: (state, action: PayloadAction<[]>) => {
-      state.data = action.payload;
+    getMarcas: (state) => {
+      state.data;
     },
   },
 });
@@ -17,5 +17,3 @@ export const carsSlice = createSlice({
 export interface CarsSliceState {
   data: []
 }
-
-export const { getMarcas } = carsSlice.actions;

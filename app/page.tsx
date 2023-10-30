@@ -1,4 +1,3 @@
-/* Components */
 import { ConsultaFipe } from './components/ConsultaFipe/ConsultaFipe'
 
 export default function IndexPage() {
